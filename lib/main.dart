@@ -3,6 +3,7 @@ import 'screens/welcome_screen.dart';
 import 'screens/login_screen.dart';
 import 'screens/sign_up_screen.dart';
 import 'screens/home_screen.dart';
+import 'package:easy_localization/easy_localization.dart';
 
 void main() => runApp(BetyApp());
 
@@ -18,9 +19,7 @@ class BetyApp extends StatelessWidget {
         LoginScreen.id:(context) => LoginScreen(),
         SignupScreen.id:(context) => SignupScreen(),
         HomeScreen.id:(context) => HomeScreen(),
-
       },
-
     );
   }
 }

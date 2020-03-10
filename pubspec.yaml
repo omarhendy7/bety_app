@@ -28,6 +28,8 @@ dependencies:
   firebase_core: ^0.4.4+2
   firebase_auth: ^0.15.5+2
   cloud_firestore: ^0.13.4
+  easy_localization: ^1.4.1
+  getflutter: ^1.0.9
 
 
 dev_dependencies:
